@@ -1,0 +1,24 @@
+.banner {
+	width: 100%;
+}
+
+body {
+	font-family: 'Oxygen', sans-serif;
+}
+
+.area-forca {
+	background-color: #04cbcb;
+}
+
+.area-palavra {
+	background-color: #04cb00;
+}
+
+.area-erros {
+	background-color: #04c000;
+}
+
+
+.rodape {
+	font-size: 10px;
+}

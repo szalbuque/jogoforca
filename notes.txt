@@ -1,0 +1,14 @@
+larg 800
+alt 300
+origem da fonte:https://myloview.com.br/poster-antique-old-font-with-skeletons-for-posters-day-of-the-dead-no-A32B5AB
+
+o morto: freepik
+
+cor do fundo do banner: #fdfdfd
+roxo da bota do morto: #730636
+
+mão de caveira do botão: Imagem de <a href="https://pixabay.com/pt/users/b0red-4473488/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2937745">b0red</a> por <a href="https://pixabay.com/pt/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2937745">Pixabay</a>
+
+esqueleto dançando gif: Halloween Dancing Gif Find Share On Giphy
+
+botão: 100 x 50
