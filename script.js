@@ -43,7 +43,8 @@ function desenharTabuleiro(palavra) {
 
 function mostrarLetraCerta(letra,pos) {
 	var imagem = new Image();
-	imagem.src = 'a.jpg';
+	var caminho = "images/"+letra+".jpg";
+	imagem.src = caminho;
 	imagem.onload = function() {
     	pincel.drawImage(imagem, colIni+(pos*(tamLinha+espaco)), 10);
 	}
@@ -78,9 +79,8 @@ function btnJogaLetra(letra) {
 	letraJogada = letra;
 	/*se a letra existe na palavra sorteada, mostra a letra, acrescenta na string palavra jogada */
 	/*se a palavra jogada for igual à palavra sorteada, venceu*/
-	if (!letrasClicadas.includes(letraJogada)) {
+	if (!letrasClicadas.includes(letraJogada)) { /* se a letra já foi clicada, não faz nada */
 		letrasClicadas = letrasClicadas + letra;
-		console.log(letrasClicadas);
 		if (palavraSorteada.includes(letraJogada)) {
 			alert('existe');
 			for (i=0;i<=numLetras;i++) {
