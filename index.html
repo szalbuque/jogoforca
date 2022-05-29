@@ -18,15 +18,41 @@
 			<section class="botoes">
 				<button class="bt-jogar" onclick="btnJogar()">Jogar</button>
 				<button class="bt_adicionar" onclick="btnAdicionar()">Adicionar palavra</button>
+				<button class="bt_desistir" onclick="btnDesistir()">Desistir</button>
 			</section>
-			<section class="area-forca">
-				Área da forca				
-			</section>
-			<section class="area-palavra">
-				Área das palavras
+			<section class="teclado">
+				<button onclick="btnJogaLetra('a')">A</button>
+				<button onclick="btnJogaLetra('b')">B</button>
+				<button onclick="btnJogaLetra('c')">C</button>
+				<button onclick="btnJogaLetra('d')">D</button>
+				<button onclick="btnJogaLetra('e')">E</button>
+				<button onclick="btnJogaLetra('f')">F</button>
+				<button onclick="btnJogaLetra('g')">G</button>
+				<button onclick="btnJogaLetra('h')">H</button>
+				<button onclick="btnJogaLetra('i')">I</button>
+				<button onclick="btnJogaLetra('j')">J</button>
+				<button onclick="btnJogaLetra('k')">K</button>
+				<button onclick="btnJogaLetra('l')">L</button>
+				<button onclick="btnJogaLetra('m')">M</button>
+				<button onclick="btnJogaLetra('n')">N</button>
+				<button onclick="btnJogaLetra('o')">O</button>
+				<button onclick="btnJogaLetra('p')">P</button>
+				<button onclick="btnJogaLetra('q')">Q</button>
+				<button onclick="btnJogaLetra('r')">R</button>
+				<button onclick="btnJogaLetra('s')">S</button>
+				<button onclick="btnJogaLetra('t')">T</button>
+				<button onclick="btnJogaLetra('u')">U</button>
+				<button onclick="btnJogaLetra('v')">V</button>
+				<button onclick="btnJogaLetra('x')">X</button>
+				<button onclick="btnJogaLetra('y')">Y</button>
+				<button onclick="btnJogaLetra('z')">Z</button>
 			</section>
 			<section class="area-erros">
-				Área dos erros
+				<div class="tela-erros">as letras erradas aparecerão aqui</div>
+			</section>
+			<section class="area-jogo">
+				Área de desenho da forca e da palavra
+				<canvas id="meuCanvas" width = "1000" height = "1000"></canvas>				
 			</section>
 		</main>
 

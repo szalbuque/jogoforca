@@ -1,21 +1,33 @@
+header {
+	text-align: center;
+}
 .banner {
-	width: 100%;
+	width: 30%;
 }
 
 body {
 	font-family: 'Oxygen', sans-serif;
 }
 
-.area-forca {
-	background-color: #04cbcb;
+.botoes {
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
-.area-palavra {
-	background-color: #04cb00;
+.teclado {
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.area-jogo {
+	background-color: #04cbcb;
 }
 
 .area-erros {
 	background-color: #04c000;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 
