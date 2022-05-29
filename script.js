@@ -42,11 +42,24 @@ function desenharTabuleiro(palavra) {
 }
 
 function mostrarLetraCerta(letra,pos) {
+	/* apresenta a imagem correspondente a letra, na posição pos */
 	var imagem = new Image();
 	var caminho = "images/"+letra+".jpg";
 	imagem.src = caminho;
 	imagem.onload = function() {
     	pincel.drawImage(imagem, colIni+(pos*(tamLinha+espaco)), 10);
+	}
+}
+
+function desenharForca(numero) {
+	/* apresenta a imagem da forca correspondente ao numero passado como parâmetro */
+	x = (base - 174)/2; /* a largura da imagem da forca é de 174 pixels */
+	console.log(x);
+	var imagem = new Image();
+	var caminho = "images/"+`${numero}`+".jpg";
+	imagem.src = caminho;
+	imagem.onload = function() {
+		pincel.drawImage(imagem, x, 80);
 	}
 }
 
@@ -60,6 +73,7 @@ function btnJogar() {
 	/* sortear a palavra */
 	/* desenhar o tabuleiro */
 	desenharTabuleiro(palavraSorteada);
+	desenharForca(0);
 }
 
 function btnAdicionar() {
@@ -96,6 +110,7 @@ function btnJogaLetra(letra) {
 			alert('não existe');
 			adicionarLetraErrada(letraJogada);
 			numErros += 1;
+			desenharForca(numErros);
 			if (numErros == maxErros) {
 				alert("perdeu!");
 			}
@@ -104,7 +119,7 @@ function btnJogaLetra(letra) {
 }
 
 /* definir número máximo de erros */
-let maxErros = 5;
+let maxErros = 4;
 
 /* sortear a palavra */
 let palavraSorteada = "chuchu";

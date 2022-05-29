@@ -11,14 +11,14 @@ body {
 
 .botoes {
 	text-align: center;
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 .teclado {
 	text-align: center;
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 .area-jogo {
 	background-color: #04cbcb;
@@ -27,8 +27,8 @@ body {
 
 .area-erros {
 	background-color: #04c000;
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 
