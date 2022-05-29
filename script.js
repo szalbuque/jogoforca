@@ -1,31 +1,6 @@
 /* pegar a área de erros na página */
 const areaErros = document.querySelector(".tela-erros");
 
-function desenharGrade(){
-	/* Desenha uma grade no canvas 
-	pincel.beginPath();
-    	pincel.rect(x, y, base, altura);
-    	pincel.stroke();
-    pincel.closePath();
-    for (i = 0; i < 100; i++) {
-    	pincel.beginPath();
-    		y = y + 10;
-    		pincel.moveTo(x,y);
-    		pincel.lineTo(x+1200,y);
-    		pincel.stroke();
-    	pincel.closePath();
-	}
-	y = 0;
-	for (i = 0; i < 120; i++) {
-		pincel.beginPath();
-			x = x + 10;
-			pincel.moveTo(x,y);
-			pincel.lineTo(x,y+800);
-			pincel.stroke();
-		pincel.closePath();
-	} */
-}
-
 function desenharTabuleiro(palavra) {
 	/*desenha uma linha para cada letra da palavra*/
 					/* coluna onde se iniciam os traços */
