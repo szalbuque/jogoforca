@@ -2,7 +2,7 @@ header {
 	text-align: center;
 }
 .banner {
-	width: 30%;
+	width: 40%;
 }
 
 body {
@@ -26,9 +26,14 @@ body {
 }
 
 .area-erros {
-	background-color: #04c000;
+	background-color: #fdda01;
 	padding-top: 10px;
 	padding-bottom: 10px;
+	text-align: center;
+	font-size: 3em;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #230f15;
 }
 
 
